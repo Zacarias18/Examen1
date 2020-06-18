@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Familia Zacarias
+ * @author Patricia Zacarias
  */
 public class Examen1zacarias {
     
