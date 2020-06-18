@@ -1,21 +1,31 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package examen1zacarias;
+
+import java.util.Arrays;
+import java.util.Scanner;
 
 /**
  *
  * @author Familia Zacarias
  */
 public class Examen1zacarias {
-
-    /**
-     * @param args the command line arguments
-     */
+    
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+        int matriz[][] = new int[5][2];
+        Scanner consola = new Scanner(System.in);
+        for (int x=0; x < matriz.length; x++) {
+            for (int y=0; y < matriz[x].length; y++) {
+                System.out.println("Introduzca el elemento [" + x + "," + y + "]");
+                matriz[x][y] = consola.nextInt();
+            }
+        }
+        for (int x=0; x < matriz.length; x++) {
+            for (int y=01; y < matriz[x].length; y++) {
+                System.out.println ("[" + x + "," + y + "] = " + matriz[x][y]);
+            }
+        }
+        
     }
     
 }
